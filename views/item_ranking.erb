@@ -1,0 +1,14 @@
+<!--参考: https://github.com/k2works/sinatra_rakuten_api-->
+<div class="starter-template">
+  <h1>書籍ランキングトップ 30</h1>
+    <table class="table table-hover">
+      <tr>
+        <th>商品名</th>
+      </tr>
+      <% @rankings.each do |ranking| %>
+      <tr>
+        <td><%= ranking.title %></td>
+      </tr>
+      <% end %>
+    </table>
+</div>
