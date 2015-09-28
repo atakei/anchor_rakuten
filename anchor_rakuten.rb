@@ -22,8 +22,4 @@ get '/' do
 
 erb :item_ranking
 
-#  books.first(10).each do |book|
-#    puts "#{book.title}"
-#  end
-
 end
